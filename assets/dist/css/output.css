@@ -5005,9 +5005,7 @@
     width: calc(1/2 * 100%);
     justify-content: flex-start;
   }
-  .navbar-start .logo{
-    width: 50%;
-  }
+
   .card-body {
     display: flex;
     flex: auto;
@@ -9831,6 +9829,16 @@
 
 .maroon-text-color{
   color: #772432;
+}
+
+.navbar-start .logo{
+  width: 25%;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-start .logo{
+    width: 20%;
+  }
 }
 
   /**End of custom css**/
