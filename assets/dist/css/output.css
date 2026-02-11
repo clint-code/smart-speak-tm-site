@@ -9801,6 +9801,7 @@
     }
   }
 }
+
 /**custom css**/
 .text-primary {
   color: #004165;
@@ -9833,6 +9834,10 @@
 
 .navbar-start .logo{
   width: 25%;
+}
+
+footer .social-media-icons{
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 480px) {
