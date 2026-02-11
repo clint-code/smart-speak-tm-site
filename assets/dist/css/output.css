@@ -5005,6 +5005,9 @@
     width: calc(1/2 * 100%);
     justify-content: flex-start;
   }
+  .navbar-start .logo{
+    width: 50%;
+  }
   .card-body {
     display: flex;
     flex: auto;
@@ -9800,6 +9803,38 @@
     }
   }
 }
+/**custom css**/
+.text-primary {
+  color: #004165;
+}
+
+.color-primary {
+  background-color: #004165;
+}
+
+.btn-primary {
+  background-color: #004165;
+  color: #ffffff;
+}
+
+.hover\:text-primary {
+    &:hover {
+      @media (hover: hover) {
+        color: #004165;
+      }
+    }
+}
+
+.btn-primary{
+  background-color: #004165;
+}
+
+.maroon-text-color{
+  color: #772432;
+}
+
+  /**End of custom css**/
+
 [data-theme='dark'] li:not(.menu-title, .menu-disabled) > :not(ul, .menu-title, .collapse, .accordion-content, .btn).menu-active {
   background-color: var(--color-primary);
   color: var(--color-primary-content);
